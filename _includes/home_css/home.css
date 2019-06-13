@@ -1,0 +1,174 @@
+/*!
+ * Start Bootstrap - Agency Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+body {
+    position: absolute;
+    margin: 0;
+    min-height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #{{ site.data.template.color.secondary-dark }};
+}
+
+.text-muted {
+    color: #{{ site.data.template.color.muted }};
+}
+
+.text-primary {
+    color: #{{ site.data.template.color.primary }};
+}
+
+p {
+    line-height: 1.75;
+	font-size: 110%;
+}
+
+p.large {
+    font-size: 120%;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+    outline: 0;
+}
+
+a {
+    color: #{{ site.data.template.color.primary }};
+}
+
+a:hover,
+a:focus,
+a:active,
+a.active {
+    color: #{{ site.data.template.color.secondary }};
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    font-family: {{ site.data.template.font.primary }};
+    font-weight: 700;
+}
+
+h4 {
+	font-size: 120%;
+}
+
+.img-centered {
+    margin: 0 auto;
+}
+
+.btn-primary {
+    border-color: #{{ site.data.template.color.primary }};
+    text-transform: uppercase;
+    font-family: {{ site.data.template.font.primary }};
+    font-weight: 700;
+    color: #fff;
+    background-color: #{{ site.data.template.color.primary }};
+}
+
+.btn-xl {
+    padding: 20px 40px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.btn-xl {
+    color: #3d400f;
+    background-color: #edff40;
+    border-color: #3d400f;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-family: {{ site.data.template.font.primary }};
+}
+
+header {
+    height: 150px;
+    text-align: center;
+    background-color: #edff40;
+}
+
+.intro-text {
+    padding-top: 25vh;
+    color: #3d400f;
+}
+
+.intro-lead-in {
+    font-family: {{ site.data.template.font.secondary }};
+    font-size: 22px;
+    font-style: italic;
+    line-height: 22px;
+}
+
+.intro-heading {
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    font-family: {{ site.data.template.font.primary }};
+    font-size: 72pt;
+    font-weight: 700;
+    line-height: 124pt;
+}
+
+section {
+    padding: 100px 0;
+}
+
+#organisers {
+    background-color: #3d400f;
+}
+
+h2.section-heading {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+#subscribing h2.section-heading {
+    color: #3d400f;
+}
+
+#organisers h2.section-heading {
+    color: #dee3ff;
+}
+
+.text-left {
+    margin-left: 10px;
+}
+
+#intro, #subscribing {
+    background-color: #dee3ff;
+}
+
+#organisers img {
+    margin: 50px auto;
+}
+
+.btn:focus,
+.btn:active,
+.btn.active,
+.btn:active:focus {
+    outline: 0;
+}
