@@ -77,11 +77,11 @@ section {
 }
 
 #organisers {
-    background-color: #3d400f;
+    background-color: #1B1D09;
 }
 #subscribing {
     background-image: url('./img/logos/top_earth.png');
-    background-size: 50%;
+    background-size: 50% 150px;
     background-repeat: no-repeat;
     background-position: bottom;
 }
@@ -111,6 +111,11 @@ section {
 
 #organisers img {
     margin: 50px auto;
+}
+
+#organisers-bottom{
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .btn:focus,
