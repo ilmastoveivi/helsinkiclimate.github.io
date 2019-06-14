@@ -70,6 +70,7 @@ header {
     font-weight: 700;
     line-height: 124pt;
     margin-top: 250px;
+    padding-top: 25px;
 }
 
 section {
@@ -103,6 +104,12 @@ section {
     margin-right: 0px;
     padding-left: 0px;
     padding-right: 0px;
+}
+
+.col-md-3 {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
 }
 
 #intro, #subscribing {
@@ -140,5 +147,19 @@ section {
     align-items: center;
     justify-content: center;
     flex-direction: row;
-  }
+    top: 150px;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
   
+#intro .vertical-align {
+    margin-top: 600px;
+}
+
+#ilmastoveivi {
+    width: 200px;
+}
+
+#sitra {
+    width: 200px;
+}
