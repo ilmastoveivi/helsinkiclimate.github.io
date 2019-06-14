@@ -35,7 +35,7 @@ body {
 }
 
 .btn-xl {
-    padding: 20px 40px;
+    padding: 20px 80px;
     font-size: 18px;
     font-weight: 700;
 }
@@ -78,6 +78,12 @@ section {
 
 #organisers {
     background-color: #3d400f;
+}
+#subscribing {
+    background-image: url('./img/logos/top_earth.png');
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
 
 #subscribing h2 {
