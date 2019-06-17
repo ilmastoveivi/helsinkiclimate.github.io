@@ -29,25 +29,15 @@ body {
     color: #{{ site.data.template.color.secondary-dark }};
 }
 
-.btn-primary {
-    border-color: #{{ site.data.template.color.primary }};
-    text-transform: uppercase;
-    font-family: {{ site.data.template.font.primary }};
-    font-weight: 700;
-    color: #fff;
-    background-color: #{{ site.data.template.color.primary }};
-}
-
 .btn-xl {
-    font-size: 18px;
-    font-weight: 700;
-    min-width: 200px;
+    font-size: 45pt;
+    min-width: 250px;
     color: #3d400f;
     background-color: #edff40;
     border-color: #3d400f;
     border-radius: 3px;
-    text-transform: uppercase;
-    font-family: {{ site.data.template.font.primary }};
+    font-family: "adobe-caslon-pro";
+    line-height: 60pt;
 }
 
 header {
@@ -59,15 +49,15 @@ header {
 }
 
 .intro-lead-in {
-    font-family: {{ site.data.template.font.secondary }};
+    font-family: "titling-gothic-fb-wide";
     font-size: 3.5vw;
     line-height: 60pt;
+    text-transform: uppercase;
 }
 
 .intro-heading {
-    font-family: {{ site.data.template.font.primary }};
+    font-family: "titling-gothic-fb";
     font-size: 7.2vw;
-    font-weight: 700;
     line-height: 124pt;
     margin-top: 250px;
     padding-top: 25px;
