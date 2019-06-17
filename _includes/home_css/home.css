@@ -21,12 +21,10 @@ body {
     background-color: #dee3ff;
     min-height: 100%;
     overflow-x: scroll;
-    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
     background-image: url('./img/logos/earth_whole.png');
     background-size: 100% ;
     background-repeat: no-repeat;
     background-position: top;
-    color: #{{ site.data.template.color.secondary-dark }};
 }
 
 .btn-xl {
@@ -47,26 +45,35 @@ body {
 }
 
 header {
-    height: 335px;
+    height: 9vh;
+}
+
+.intro-heading {
+    font-family: "adobe-caslon-pro";
+    font-size: 7.2vw;
+    line-height: 11vw;
+    margin-top: 36.5vw;
+}
+
+.intro-lead-in {
+    font-family: "titling-gothic-fb-wide";
+    font-size: 3.3vw;
+    line-height: 60pt;
+    text-transform: uppercase;
 }
 
 .intro-text {
     color: #3d400f;
 }
 
-.intro-lead-in {
-    font-family: "titling-gothic-fb-wide";
-    font-size: 3.5vw;
-    line-height: 60pt;
-    text-transform: uppercase;
+/* Italic text between the intro-lead-in */
+i {
+    font-family: "adobe-caslon-pro";
 }
 
-.intro-heading {
+/* Paragraph text under the button */
+p {
     font-family: "titling-gothic-fb";
-    font-size: 7.2vw;
-    line-height: 124pt;
-    margin-top: 250px;
-    padding-top: 30px;
 }
 
 section {
@@ -132,8 +139,7 @@ section {
     display: flex;
     align-items: center;
     flex-direction: row;
-    top: 150px;
-    padding-top: 100px;
+    padding-top: 50vh;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
 }
@@ -148,4 +154,28 @@ section {
 
 #sitra {
     width: 200px;
+}
+
+@media screen and (max-width : 600px){
+    /* header {
+        height: 35px;
+    } */
+    .btn-xl {
+        font-size: 15pt;
+        min-width: 125px;
+        line-height: 30pt;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .intro-heading {
+        /* line-height: 32pt; */
+        /* margin-top: 25px;
+        padding-top: 5px; */
+    }
+    .intro-lead-in {
+        line-height: 30pt;
+    }
+    #intro .vertical-align {
+        /* margin-top: 300px; */
+    }
 }
