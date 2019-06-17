@@ -18,10 +18,14 @@ html {
 }
 
 body {
-    position: absolute;
+    background-color: #dee3ff;
     min-height: 100%;
     overflow-x: scroll;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-image: url('./img/logos/earth_whole.png');
+    background-size: 100% ;
+    background-repeat: no-repeat;
+    background-position: top;
     color: #{{ site.data.template.color.secondary-dark }};
 }
 
@@ -35,9 +39,9 @@ body {
 }
 
 .btn-xl {
-    padding: 20px 80px;
     font-size: 18px;
     font-weight: 700;
+    min-width: 200px;
 }
 
 .btn-xl {
@@ -51,7 +55,6 @@ body {
 
 header {
     height: 335px;
-    background-color: #edff40;
 }
 
 .intro-text {
@@ -60,13 +63,13 @@ header {
 
 .intro-lead-in {
     font-family: {{ site.data.template.font.secondary }};
-    font-size: 35pt;
+    font-size: 3.5vw;
     line-height: 60pt;
 }
 
 .intro-heading {
     font-family: {{ site.data.template.font.primary }};
-    font-size: 72pt;
+    font-size: 7.2vw;
     font-weight: 700;
     line-height: 124pt;
     margin-top: 250px;
@@ -80,9 +83,10 @@ section {
 #organisers {
     background-color: #1B1D09;
 }
+
 #intro {
     background-image: url('./img/logos/top_earth.png');
-    background-size: 50% 150px;
+    background-size: 50%;
     background-repeat: no-repeat;
     background-position: bottom;
 }
@@ -112,10 +116,6 @@ section {
     vertical-align: middle;
 }
 
-#intro, #subscribing {
-    background-color: #dee3ff;
-}
-
 #organisers img {
     margin: 50px auto;
 }
@@ -133,7 +133,7 @@ section {
 }
 
 #earth-whole {
-    width: 1500px;
+    width: 100%;
 }
 
 #helsinki-climate {
@@ -145,7 +145,6 @@ section {
 .vertical-align {
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-direction: row;
     top: 150px;
     -ms-transform: translateY(-50%);
