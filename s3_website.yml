@@ -1,0 +1,2 @@
+s3_bucket: helsinkiclimate
+cloudfront_wildcard_invalidation: true

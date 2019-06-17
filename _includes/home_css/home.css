@@ -18,40 +18,36 @@ html {
 }
 
 body {
-    position: absolute;
+    background-color: #dee3ff;
     min-height: 100%;
     overflow-x: scroll;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-image: url('./img/logos/earth_whole.png');
+    background-size: 100% ;
+    background-repeat: no-repeat;
+    background-position: top;
     color: #{{ site.data.template.color.secondary-dark }};
 }
 
-.btn-primary {
-    border-color: #{{ site.data.template.color.primary }};
-    text-transform: uppercase;
-    font-family: {{ site.data.template.font.primary }};
-    font-weight: 700;
-    color: #fff;
-    background-color: #{{ site.data.template.color.primary }};
-}
-
 .btn-xl {
-    padding: 20px 40px;
-    font-size: 18px;
-    font-weight: 700;
-}
-
-.btn-xl {
+    font-size: 45pt;
+    min-width: 250px;
     color: #3d400f;
     background-color: #edff40;
     border-color: #3d400f;
     border-radius: 3px;
-    text-transform: uppercase;
-    font-family: {{ site.data.template.font.primary }};
+    font-family: "adobe-caslon-pro";
+    line-height: 60pt;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#button-col {
+    text-align: center;
 }
 
 header {
     height: 335px;
-    background-color: #edff40;
 }
 
 .intro-text {
@@ -59,17 +55,18 @@ header {
 }
 
 .intro-lead-in {
-    font-family: {{ site.data.template.font.secondary }};
-    font-size: 35pt;
+    font-family: "titling-gothic-fb-wide";
+    font-size: 3.5vw;
     line-height: 60pt;
+    text-transform: uppercase;
 }
 
 .intro-heading {
-    font-family: {{ site.data.template.font.primary }};
-    font-size: 72pt;
-    font-weight: 700;
+    font-family: "titling-gothic-fb";
+    font-size: 7.2vw;
     line-height: 124pt;
     margin-top: 250px;
+    padding-top: 30px;
 }
 
 section {
@@ -77,7 +74,14 @@ section {
 }
 
 #organisers {
-    background-color: #3d400f;
+    background-color: #1B1D09;
+}
+
+#intro {
+    background-image: url('./img/logos/top_earth.png');
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
 
 #subscribing h2 {
@@ -99,23 +103,23 @@ section {
     padding-right: 0px;
 }
 
-#intro, #subscribing {
-    background-color: #dee3ff;
+.col-md-3 {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
 }
 
 #organisers img {
     margin: 50px auto;
 }
 
-.btn:focus,
-.btn:active,
-.btn.active,
-.btn:active:focus {
-    outline: 0;
+#organisers-bottom{
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 #earth-whole {
-    width: 1500px;
+    width: 100%;
 }
 
 #helsinki-climate {
@@ -127,7 +131,21 @@ section {
 .vertical-align {
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-direction: row;
-  }
+    top: 150px;
+    padding-top: 100px;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
   
+#intro .vertical-align {
+    margin-top: 600px;
+}
+
+#ilmastoveivi {
+    width: 200px;
+}
+
+#sitra {
+    width: 200px;
+}
