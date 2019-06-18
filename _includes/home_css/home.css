@@ -120,9 +120,8 @@ section {
     margin: 50px auto;
 }
 
-#organisers-bottom{
-    padding-top: 20px;
-    padding-bottom: 20px;
+#organisers-bottom {
+    padding-top: 50px;
 }
 
 #earth-whole {
@@ -139,9 +138,6 @@ section {
     display: flex;
     align-items: center;
     flex-direction: row;
-    padding-top: 50vh;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
 }
   
 #intro .vertical-align {
@@ -156,10 +152,26 @@ section {
     width: 200px;
 }
 
-@media screen and (max-width : 600px){
-    /* header {
-        height: 35px;
-    } */
+#partners-heading {
+    font-family: 'titling-gothic-fb-wide';
+    font-size: 16pt;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+@media screen and (min-width: 600px) {
+    #organisers .vertical-align {
+        margin-top: 30vh;
+        transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #greenpeace {
+        padding-bottom: 50px;
+    }
     .btn-xl {
         font-size: 15pt;
         min-width: 125px;
@@ -167,15 +179,7 @@ section {
         padding-left: 25px;
         padding-right: 25px;
     }
-    .intro-heading {
-        /* line-height: 32pt; */
-        /* margin-top: 25px;
-        padding-top: 5px; */
-    }
     .intro-lead-in {
         line-height: 30pt;
-    }
-    #intro .vertical-align {
-        /* margin-top: 300px; */
     }
 }
