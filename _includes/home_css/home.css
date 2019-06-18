@@ -112,9 +112,8 @@ section {
     margin: 50px auto;
 }
 
-#organisers-bottom{
-    padding-top: 20px;
-    padding-bottom: 20px;
+#organisers-bottom {
+    padding-top: 50px;
 }
 
 #helsinki-climate {
@@ -159,16 +158,8 @@ section {
         padding-left: 25px;
         padding-right: 25px;
     }
-    .intro-heading {
-        /* line-height: 32pt; */
-        /* margin-top: 25px;
-        padding-top: 5px; */
-    }
     .intro-lead-in {
         line-height: 30pt;
-    }
-    #intro .vertical-align {
-        /* margin-top: 300px; */
     }
 }
 
