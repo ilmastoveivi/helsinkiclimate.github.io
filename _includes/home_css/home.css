@@ -37,9 +37,12 @@ body {
 }
 
 #button-col {
-    text-align: center;
+    text-align: left;
 }
 
+.button-sub-text{
+    font-size: 2.3vh;
+}
 .intro-heading {
     font-family: "adobe-caslon-pro";
     font-size: 7.2vw;
@@ -61,6 +64,7 @@ body {
 /* Italic text between the intro-lead-in */
 i {
     font-family: "adobe-caslon-pro";
+    font-weight: bold;
 }
 
 /* Paragraph text under the button */
@@ -89,6 +93,8 @@ section {
 
 #organisers h2 {
     color: #dee3ff;
+    font-size: 16pt;
+    font-family: 'titling-gothic-fb-wide'
 }
 
 .text {
@@ -112,8 +118,12 @@ section {
     margin: 50px auto;
 }
 
-#organisers-bottom {
+.organisers-bottom {
     padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 #helsinki-climate {
@@ -147,10 +157,17 @@ section {
     background-position: top;
 }
 
-@media screen and (max-width : 600px){
-    /* header {
-        height: 35px;
-    } */
+#partners-heading {
+    font-family: 'titling-gothic-fb-wide';
+    font-size: 16pt;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 600px) {
+    #greenpeace {
+        padding-bottom: 50px;
+    }
     .btn-xl {
         font-size: 15pt;
         min-width: 125px;
@@ -162,5 +179,13 @@ section {
         line-height: 30pt;
     }
 }
+
+@media screen and (min-width: 600px) {
+    #intro{
+        padding-top: 50vh;
+    }
+    
+}
+
 
 
