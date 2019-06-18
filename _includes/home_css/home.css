@@ -176,7 +176,7 @@ section {
     text-transform: uppercase;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1268px) {
     #greenpeace {
         padding-bottom: 50px;
     }
@@ -206,7 +206,8 @@ section {
 @media screen and (min-width: 600px) {
     #intro{
         padding-top: 50vh;
-    }  
+        padding-bottom: 30vh;
+    }
 }
 
 
