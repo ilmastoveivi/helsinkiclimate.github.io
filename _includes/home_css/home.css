@@ -125,6 +125,17 @@ section {
     justify-content: center;
     flex-wrap: wrap;
 }
+.organisers-bottom h2{
+    text-transform: uppercase;
+}
+
+.organisers-bottom-partners {
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
 #helsinki-climate {
     position: absolute;
@@ -168,6 +179,10 @@ section {
     #greenpeace {
         padding-bottom: 50px;
     }
+    #intro, #button-col{
+        text-align: center;
+    }
+
     .btn-xl {
         font-size: 15pt;
         min-width: 125px;
@@ -178,13 +193,19 @@ section {
     .intro-lead-in {
         line-height: 30pt;
     }
+
+    .vertical-align {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 10vh;
+    }
 }
 
 @media screen and (min-width: 600px) {
     #intro{
         padding-top: 50vh;
-    }
-    
+    }  
 }
 
 
