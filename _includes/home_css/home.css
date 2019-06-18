@@ -21,10 +21,10 @@ body {
     background-color: #dee3ff;
     min-height: 100%;
     overflow-x: scroll;
-    background-image: url('./img/logos/earth_whole.png');
+    /* background-image: url('./img/logos/earth_whole.png');
     background-size: 100% ;
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: top; */
 }
 
 .btn-xl {
@@ -52,7 +52,7 @@ header {
     font-family: "adobe-caslon-pro";
     font-size: 7.2vw;
     line-height: 11vw;
-    margin-top: 36.5vw;
+    margin-top: 46.5vw;
 }
 
 .intro-lead-in {
@@ -139,13 +139,13 @@ section {
     display: flex;
     align-items: center;
     flex-direction: row;
-    padding-top: 50vh;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+    padding-top: 10vh;
+    /* -ms-transform: translateY(-50%);
+    transform: translateY(-50%); */
 }
   
 #intro .vertical-align {
-    margin-top: 600px;
+    /* margin-top: 600px; */
 }
 
 #ilmastoveivi {
@@ -154,6 +154,16 @@ section {
 
 #sitra {
     width: 200px;
+}
+
+#page-top {
+    background-color: #dee3ff;
+    min-height: 100%;
+    overflow-x: scroll;
+    background-image: url('./img/logos/earth_whole.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
 }
 
 @media screen and (max-width : 600px){
@@ -179,3 +189,5 @@ section {
         /* margin-top: 300px; */
     }
 }
+
+

@@ -2,11 +2,20 @@
 <html>
   {% include home_data/head.html %}
   <body id="body" class="index">
+    <container>
     <div id="page-top">
+        <div class="text-left">
+            <h1 class="intro-heading text">
+                We need to talk<br>about 2030.
+            </h1>
+        </div>
+        {% include home_data/intro.html %}
+    </div>
+    <div id="page-middle">
       <!-- Header element used as a buffer between the head logo and the text below it -->
-      <header></header>
-      {% include home_data/intro.html %}
+      
       {% include home_data/organisers.html %}
     </div>
+  </container>
   </body>
 </html>
