@@ -205,8 +205,8 @@ section {
 
 @media screen and (min-width: 600px) {
     #intro{
-        padding-top: 50vh;
-        padding-bottom: 30vh;
+        padding-top: 40vh;
+        padding-bottom: 20vh;
     }
 }
 
