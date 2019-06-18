@@ -8,9 +8,29 @@
         </div>
         <div id="button-col" class="col-xs-12 col-md-5 col-sm-5">
             <div>
-                <a href="" class="page-scroll btn btn-xl">Keep me posted</a>
+                <a onclick="openForm()" class="page-scroll btn btn-xl">Keep me posted</a>
                 <p class="button-sub-text">We want you to be part of it.</p>
             </div>
         </div>
     </div>
 </section>
+<script type="text/javascript"
+    src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js"
+    data-dojo-config="usePlainJson: true, isDebug: false">
+</script>
+<script type="text/javascript">
+    const openForm = () => {
+        if (!document.getElementById('PopupSignupForm_1')) {
+            window.dojoRequire(['mojo/signup-forms/Loader'],
+                (loader) => {
+                    loader.start({
+                        'baseUrl': 'mc.us20.list-manage.com',
+                        'uuid': '5feed09c76ae7204b4ecc56a8',
+                        'lid': 'a557a1831f',
+                        'uniqueMethods': true})
+                }
+            )
+            document.cookie = 'MCPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC';
+        }
+    }
+</script>
