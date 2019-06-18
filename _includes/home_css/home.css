@@ -21,10 +21,6 @@ body {
     background-color: #dee3ff;
     min-height: 100%;
     overflow-x: scroll;
-    /* background-image: url('./img/logos/earth_whole.png');
-    background-size: 100% ;
-    background-repeat: no-repeat;
-    background-position: top; */
 }
 
 .btn-xl {
@@ -42,10 +38,6 @@ body {
 
 #button-col {
     text-align: center;
-}
-
-header {
-    height: 9vh;
 }
 
 .intro-heading {
@@ -125,10 +117,6 @@ section {
     padding-bottom: 20px;
 }
 
-#earth-whole {
-    width: 100%;
-}
-
 #helsinki-climate {
     position: absolute;
     left: 666px;
@@ -140,12 +128,6 @@ section {
     align-items: center;
     flex-direction: row;
     padding-top: 10vh;
-    /* -ms-transform: translateY(-50%);
-    transform: translateY(-50%); */
-}
-  
-#intro .vertical-align {
-    /* margin-top: 600px; */
 }
 
 #ilmastoveivi {
