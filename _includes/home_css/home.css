@@ -150,7 +150,7 @@ section {
 #page-top {
     background-color: #dee3ff;
     min-height: 100%;
-    overflow-x: scroll;
+    overflow-x: hidden;
     background-image: url('./img/logos/earth_whole.png');
     background-size: 100%;
     background-repeat: no-repeat;
