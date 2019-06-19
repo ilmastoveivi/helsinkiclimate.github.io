@@ -8,7 +8,7 @@
         </div>
         <div id="button-col" class="col-xs-12 col-md-5 col-sm-5">
             <div>
-                <a onclick="openForm()" class="page-scroll btn btn-xl">Keep me posted</a>
+                <a onclick="openForm();" class="page-scroll btn btn-xl">Keep me posted</a>
                 <p class="button-sub-text">We want you to be part of it.</p>
             </div>
         </div>
@@ -19,8 +19,17 @@
     data-dojo-config="usePlainJson: true, isDebug: false">
 </script>
 <script type="text/javascript">
+    let isPopupOpen = false;
+    window.addEventListener('click', (event) => {
+        if (event.target.className === 'mc-closeModal') {
+            isPopupOpen = false;
+        }
+    });
+    /* Opens the Mailchimp popup form if it has not been opened yet. The cookies MCPopupClosed and MCPopupSubscribed are set
+        as expired to allow re-opening of the form from a button if the user closes the popup. */
     const openForm = () => {
-        if (!document.getElementById('PopupSignupForm_1')) {
+        if (!isPopupOpen) {
+            isPopupOpen = true;
             window.dojoRequire(['mojo/signup-forms/Loader'],
                 (loader) => {
                     loader.start({
@@ -31,6 +40,7 @@
                 }
             )
             document.cookie = 'MCPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC';
+            document.cookie = 'MCPopupSubscribed=; expires=Thu, 01 Jan 1970 00:00:00 UTC';
         }
     }
 </script>
