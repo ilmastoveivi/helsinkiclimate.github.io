@@ -20,7 +20,7 @@ html {
 body {
     background-color: #dee3ff;
     min-height: 100%;
-    overflow-x: scroll;
+    overflow-x: hidden;
 }
 
 .btn-xl {
