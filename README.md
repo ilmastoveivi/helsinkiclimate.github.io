@@ -1,6 +1,35 @@
 ## About the project
 
-TODO
+This repository is used for the development of the https://helsinkiclimate.org website for the Helsinki Climate event related to the Ilmastoveivi2019 campaign. The purpose of the website is to work as a simple landing page for people to be able to subscribe for emails related to the event/campaign. You can read more about the campaign here: https://ilmastoveivi2019.fi/campaign.
+
+## How to participate
+
+The page uses Jekyll and is hosted by AWS S3. You can test the website locally on your computer by following the instructions on the Jekyll website: https://jekyllrb.com/
+
+Instructions for Windows and MacOS:
+- https://jekyllrb.com/docs/installation/windows/
+- https://jekyllrb.com/docs/installation/macos/
+
+You are welcome to participate in the development for example by contacting the campaign team.
+
+## Deployment
+
+Deployment is currently done manually with the s3_website tool: https://github.com/laurilehmijoki/s3_website. Currently only Gofore Crew members may obtain access to deploy, since the S3 bucket where the website is hosted is owned by Gofore Crew. To be able to deploy to S3, you require AWS credentials and acquired access keys for Gofore Crew. After acquiring them, you need to insert the keys in a file named `credentials` in `.aws`-folder located in your system user's home folder. The file content must be given in format:
+
+```
+[default]
+aws_access_key_id = <YOUR_AWS_ACCESS_KEY_ID_HERE>
+aws_secret_access_key = <YOUR_AWS_SECRET_ACCESS_KEY_HERE>
+```
+
+After saving the credentials-file, you should now be able to deploy to S3 with the CLI command: `s3_website push`.
+
+## Contacts
+
+- info@ilmastoveivi2019.fi
+- https://twitter.com/Ilmastoveivi19
+- https://www.facebook.com/ilmastoveivi2019
+- https://www.instagram.com/ilmastoveivi2019/
 
 ## License
 
