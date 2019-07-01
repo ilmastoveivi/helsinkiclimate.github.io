@@ -1,6 +1,6 @@
 ## About the project
 
-This repository is used for the development of the https://helsinkiclimate.org website for the Helsinki Climate event related to the Ilmastoveivi2019 campaign. The purpose of the website is to work as a simple landing page for people to be able to subscribe for emails related to the event/campaign. You can read more about the campaign here: https://ilmastoveivi2019.fi/campaign.
+This repository is used for the development of the http://helsinkiclimate.org website for the Helsinki Climate event related to the Ilmastoveivi2019 campaign. The purpose of the website is to work as a simple landing page for people to be able to subscribe for emails related to the event/campaign. You can read more about the campaign here: https://ilmastoveivi2019.fi/campaign.
 
 ## How to participate
 
