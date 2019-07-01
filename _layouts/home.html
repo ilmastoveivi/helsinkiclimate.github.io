@@ -4,10 +4,13 @@
   <body id="body" class="index">
     <div>
       <div id="page-top">
-        <div class="text-left">
-          <h1 class="intro-heading text">
-              We need to talk<br>about 2030.
-          </h1>
+        <div class="text-center">
+          <div class="intro-heading">
+              <div id="date-location">
+                  September 11, 2019 @ Bio Rex
+                </div>
+              <p id="lets"></p>
+          </div >
         </div>
         {% include home_data/intro.html %}
       </div>
@@ -16,4 +19,26 @@
       </div>
     </div>
   </body>
+
+<script>
+    const interval = 3000
+    var text = [
+      "<b>Let's</b> go carbon neutral.",
+      "<b>Let's</b> talk about 2030.",
+      "<b>Let's</b> make 1.5C a reality.",
+      "<b>Let's</b> be honest with our youth.",
+      "<b>Let's</b> move towards a one planet economy.",
+      "<b>Let's</b> make a fossil-free society.",
+      "<b>Let's</b> face the carbon-free facts.",
+      "<b>Let's</b> make solutions for a 1,5C world.",
+    ];
+    var counter = Math.floor(Math.random() * 6);
+    $('#lets').html(text[counter % text.length]);
+    setInterval(change, interval);
+    function change() {
+      counter++;
+      $('#lets').html(text[counter % text.length]);
+      
+    }
+  </script>
 </html>

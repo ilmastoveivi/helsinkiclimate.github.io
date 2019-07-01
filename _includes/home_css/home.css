@@ -45,9 +45,9 @@ body {
 }
 .intro-heading {
     font-family: "adobe-caslon-pro";
-    font-size: 7.2vw;
-    line-height: 11vw;
-    margin-top: 46.5vw;
+    font-size: 3.3vw;
+    line-height: 60pt;
+    margin-top: 40.5vw;
 }
 
 .intro-lead-in {
@@ -58,7 +58,7 @@ body {
 }
 
 .intro-text {
-    color: #3d400f;
+    margin-top: 10vw;
 }
 
 /* Italic text between the intro-lead-in */
@@ -176,6 +176,16 @@ section {
     text-transform: uppercase;
 }
 
+#date-location {
+    font-family: "titling-gothic-fb-narrow";
+    font-size: 3.3vw;
+}
+
+#lets{
+    font-family: "adobe-caslon-pro";
+    font-size: 5.3vw;
+}
+
 @media screen and (max-width: 1268px) {
     #greenpeace {
         padding-bottom: 50px;
@@ -205,8 +215,7 @@ section {
 
 @media screen and (min-width: 600px) {
     #intro{
-        padding-top: 40vh;
-        padding-bottom: 20vh;
+        padding-bottom: 60vh;
     }
 }
 
