@@ -188,6 +188,10 @@ section {
     text-transform: uppercase;
 }
 
+#privacy-policy {
+    color: #dee3ff;
+}
+
 @media screen and (max-width: 1268px) {
     #greenpeace {
         padding-bottom: 50px;
