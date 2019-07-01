@@ -152,10 +152,22 @@ section {
 }
 
 #ilmastoveivi {
+    width: 100px;
+}
+
+#demoshelsinki {
+    width: 200px;
+}
+
+#greenpeace {
     width: 200px;
 }
 
 #sitra {
+    width: 200px;
+}
+
+#smartclean {
     width: 200px;
 }
 
@@ -209,6 +221,3 @@ section {
         padding-bottom: 20vh;
     }
 }
-
-
-
