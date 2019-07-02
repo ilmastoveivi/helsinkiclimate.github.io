@@ -42,6 +42,7 @@ body {
 }
 
 .button-sub-text{
+    color: #3d400f;
     font-size: 2.3vw;
 }
 .intro-heading {
@@ -190,11 +191,13 @@ section {
 }
 
 #date-location {
+    color: #3d400f;
     font-family: "titling-gothic-fb";
     font-size: 2.3vw;
 }
 
-#lets{
+#lets {
+    color: #3d400f;
     font-family: "adobe-caslon-pro";
     font-style: italic;
     font-size: 5.3vw;
