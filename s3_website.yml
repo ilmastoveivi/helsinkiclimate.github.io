@@ -1,2 +1,2 @@
-s3_bucket: helsinkiclimate
+s3_bucket: helsinkiclimate.org
 cloudfront_wildcard_invalidation: true
