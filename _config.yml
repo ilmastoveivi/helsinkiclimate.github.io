@@ -1,4 +1,2 @@
 baseurl: ""
 url: "Your-Link.github.io" # the base hostname & protocol for the site
-exclude:
-  - vendor
