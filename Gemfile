@@ -1,5 +1,4 @@
 source 'https://rubygems.org'
-gem 'github-pages', group: :jekyll_plugins
-gem 's3_website'
+gem 'jekyll'
 gem "rake"
 ruby "2.6.2"
