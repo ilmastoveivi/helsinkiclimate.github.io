@@ -14,6 +14,8 @@ You are welcome to participate in the development for example by contacting the 
 
 ## Deployment
 
+### Deployment to production environment
+
 Deployment is currently done manually with the s3_website tool: https://github.com/laurilehmijoki/s3_website. Currently only Gofore Crew members may obtain access to deploy, since the S3 bucket where the website is hosted is owned by Gofore Crew. To be able to deploy to S3, you require AWS credentials and acquired access keys for Gofore Crew. After acquiring them, you need to insert the keys in a file named `credentials` in `.aws`-folder located in your system user's home folder. The file content must be given in format:
 
 ```
@@ -23,6 +25,21 @@ aws_secret_access_key = <YOUR_AWS_SECRET_ACCESS_KEY_HERE>
 ```
 
 After saving the credentials-file, you should now be able to deploy to S3 with the CLI command: `s3_website push`.
+
+### Deployment to staging environment
+
+A separate staging environment is hosted by Heroku: https://www.heroku.com/. Generally this environment should be used to test and review new changes before deploying them to production, if possible. To be able to deploy to Heroku, you need to register a Heroku account. After that you can request access to the Heroku repository from the development team. When deploying via terminal with Git, you are also required to install Heroku CLI: https://devcenter.heroku.com/articles/heroku-cli
+
+After receiving access to Heroku and installing the Heroku CLI, you should now be able to deploy changes to the Heroku repository:
+
+1. Start with logging into Heroku CLI with command `heroku login`.
+2. Add the Heroku Git remote with `heroku git:remote -a <HEROKU_REPOSITORY_NAME>`.
+3. Verify that the Heroku remote was set correctly: `git remote -v`, it should show two heroku remotes (one for fetch and one for push) and two origin remotes for the Git repository.
+4. To deploy the latest commits from a specific Git branch, run `git push heroku <GIT_BRANCH_NAME>:master`. If you wish to deploy the current master branch, you may run `git push heroku master`. Note that the deployment is always based on Git commits, so you need to create commits to deploy your latest changes.
+
+Additionally, sometimes you may need to restart the server to see new changes. For that you need to use command `heroku ps:scale web=1`.
+
+For monitoring the Heroku logs, use `heroku logs --tail`.
 
 ## Contacts
 
