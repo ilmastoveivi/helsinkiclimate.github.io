@@ -11,231 +11,239 @@ html {
   height: 100%;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   -webkit-box-sizing: inherit;
   -moz-box-sizing: inherit;
   box-sizing: inherit;
 }
 
 body {
-    background-color: #dee3ff;
-    min-height: 100%;
-    overflow-x: hidden;
+  background-color: #dee3ff;
+  min-height: 100%;
+  overflow-x: hidden;
 }
 
 .btn-xl {
-    font-size: 45pt;
-    min-width: 600px;
-    color: #3d400f;
-    background-color: #edff40;
-    border-color: #3d400f;
-    border-radius: 3px;
-    font-family: "adobe-caslon-pro";
-    font-style: italic;
-    line-height: 60pt;
-    padding-left: 50px;
-    padding-right: 50px;
+  font-size: 45pt;
+  min-width: 600px;
+  color: #3d400f;
+  background-color: #edff40;
+  border-color: #3d400f;
+  border-radius: 3px;
+  font-family: "adobe-caslon-pro";
+  font-style: italic;
+  line-height: 60pt;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 #button-col {
-    text-align: left;
+  text-align: left;
 }
 
-.button-sub-text{
-    color: #3d400f;
-    font-size: 2.3vw;
+.button-sub-text {
+  color: #3d400f;
+  font-size: 2.3vw;
 }
 .intro-heading {
-    font-family: "adobe-caslon-pro";
-    font-size: 3.3vw;
-    line-height: 60pt;
-    margin-top: 40.5vw;
+  font-family: "adobe-caslon-pro";
+  font-size: 3.3vw;
+  line-height: 60pt;
+  margin-top: 40.5vw;
 }
 
 .intro-lead-in {
-    font-family: "titling-gothic-fb-wide";
-    font-size: 3.3vw;
-    line-height: 60pt;
-    text-transform: uppercase;
+  font-family: "titling-gothic-fb-wide";
+  font-size: 3.3vw;
+  line-height: 60pt;
+  text-transform: uppercase;
 }
 
 .intro-text {
-    margin-top: 10vw;
+  margin-top: 10vw;
 }
 
 /* Italic text between the intro-lead-in */
 i {
-    font-family: "adobe-caslon-pro";
-    font-weight: bold;
-    text-transform: lowercase;
+  font-family: "adobe-caslon-pro";
+  font-weight: bold;
+  text-transform: lowercase;
 }
 
 /* Paragraph text under the button */
 p {
-    font-family: "titling-gothic-fb";
+  font-family: "titling-gothic-fb";
 }
 
 section {
-    padding: 80px 0;
+  padding: 80px 0;
 }
 
 #organisers {
-    background-color: #1B1D09;
+  background-color: #1b1d09;
 }
 
 #intro {
-    background-image: url('./img/logos/top_earth.png');
-    background-size: 50%;
-    background-repeat: no-repeat;
-    background-position: bottom;
+  background-image: url("./img/logos/top_earth.png");
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: bottom;
 }
 
 #subscribing h2 {
-    color: #3d400f;
+  color: #3d400f;
 }
 
 #organisers h2 {
-    color: #dee3ff;
-    font-size: 16pt;
-    font-family: 'titling-gothic-fb-wide'
+  color: #dee3ff;
+  font-size: 16pt;
+  font-family: "titling-gothic-fb-wide";
 }
 
 .text {
-    margin-left: 20px;
+  margin-left: 20px;
 }
 
-.row, .col-xs-6 {
-    margin-left: 0px;
-    margin-right: 0px;
-    padding-left: 0px;
-    padding-right: 0px;
+.row,
+.col-xs-6 {
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .col-md-3 {
-    display: inline-block;
-    height: 100%;
-    vertical-align: middle;
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
 }
 
 #organisers img {
-    margin: 50px auto;
+  margin: 50px auto;
 }
 
 .organisers-bottom {
-    padding-top: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
-.organisers-bottom h2{
-    text-transform: uppercase;
+.organisers-bottom h2 {
+  text-transform: uppercase;
 }
 
 .organisers-bottom-partners {
-    padding-top: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 #helsinki-climate {
-    position: absolute;
-    left: 666px;
-    top: 320px;
+  position: absolute;
+  left: 666px;
+  top: 320px;
 }
 
 .vertical-align {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    padding-top: 10vh;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding-top: 10vh;
 }
 
 #ilmastoveivi {
-    width: 100px;
+  width: 100px;
 }
 
 #demoshelsinki {
-    width: 200px;
+  width: 200px;
+}
+
+#gofore {
+  width: 200px;
 }
 
 #greenpeace {
-    width: 200px;
+  width: 200px;
 }
 
 #sitra {
-    width: 200px;
+  width: 200px;
 }
 
 #smartclean {
-    width: 200px;
+  width: 200px;
 }
 
 #page-top {
-    background-color: #dee3ff;
-    min-height: 100%;
-    overflow-x: hidden;
-    background-image: url('./img/logos/earth_whole.png');
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: top;
+  background-color: #dee3ff;
+  min-height: 100%;
+  overflow-x: hidden;
+  background-image: url("./img/logos/earth_whole.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top;
 }
 
 #partners-heading {
-    font-family: 'titling-gothic-fb-wide';
-    font-size: 16pt;
-    text-align: center;
-    text-transform: uppercase;
+  font-family: "titling-gothic-fb-wide";
+  font-size: 16pt;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 #date-location {
-    color: #3d400f;
-    font-family: "titling-gothic-fb";
-    font-size: 2.3vw;
+  color: #3d400f;
+  font-family: "titling-gothic-fb";
+  font-size: 2.3vw;
 }
 
 #lets {
-    color: #3d400f;
-    font-family: "adobe-caslon-pro";
-    font-style: italic;
-    font-size: 5.3vw;
+  color: #3d400f;
+  font-family: "adobe-caslon-pro";
+  font-style: italic;
+  font-size: 5.3vw;
 }
 
 #privacy-policy {
-    color: #dee3ff;
+  color: #dee3ff;
 }
 
 @media screen and (max-width: 1268px) {
-    #greenpeace {
-        padding-bottom: 50px;
-    }
-    #intro, #button-col{
-        text-align: center;
-    }
+  #greenpeace {
+    padding-bottom: 50px;
+  }
+  #intro,
+  #button-col {
+    text-align: center;
+  }
 
-    .btn-xl {
-        font-size: 15pt;
-        min-width: 300px;
-        line-height: 30pt;
-        padding-left: 25px;
-        padding-right: 25px;
-    }
-    .intro-lead-in {
-        line-height: 30pt;
-    }
+  .btn-xl {
+    font-size: 15pt;
+    min-width: 300px;
+    line-height: 30pt;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .intro-lead-in {
+    line-height: 30pt;
+  }
 
-    .vertical-align {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        padding-top: 10vh;
-    }
+  .vertical-align {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10vh;
+  }
 }
 
 @media screen and (min-width: 600px) {
-    #intro{
-        padding-bottom: 60vh;
-    }
+  #intro {
+    padding-bottom: 60vh;
+  }
 }
